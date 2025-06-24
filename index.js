@@ -4,7 +4,7 @@ const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const COMPANY_API_KEY = '여기에_회사_API_KEY_입력';
+const COMPANY_API_KEY = 'app-gJ4LatCpb2l63CaHL8qhM0ZX';
 const COMPANY_API_URL = 'https://internal.company.ai/api/recommend';
 
 app.use(cors());

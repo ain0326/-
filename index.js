@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 const COMPANY_API_KEY = 'app-9iqdLrxUu7tGS3BP9fz4xqqc';
-const COMPANY_API_URL = 'https://internal.company.ai/api/recommend';
+const COMPANY_API_URL = 'https://gateway.ax.gsretail.com/ext/v1';
 
 app.use(cors());
 app.use(express.json());
